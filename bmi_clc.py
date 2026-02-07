@@ -15,4 +15,4 @@ gender = st.text_input("Enter youe gender: ")
 bmi = round(weight/(height/100)**2,2)
 
 st.write(f"Your BMI is: {bmi}")
-prompt = f"Act like an expert nutritionist, comment on the BMI with the following data: height as {height}, weight as {weight), age as {age}, gender as {gender} and BMI as {bmi}"
+prompt = f"Act like an expert nutritionist, comment on the BMI with the following data: height as {height}, weight as {weight}, age as {age}, gender as {gender} and BMI as {bmi}"
